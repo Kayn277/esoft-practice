@@ -1,0 +1,22 @@
+{
+   
+   "type": "postgres",
+   "host": "localhost",
+   "username": "postgres",
+   "port": 5432,
+   "password": "s56u9555",
+   "database": "esoft",
+   "synchronize": true,
+   "logging": {
+      "logOnlyFailedQueries": true
+   },
+   "entities": [
+      "dist/**/*.entity.js"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ]
+}
